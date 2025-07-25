@@ -36,12 +36,15 @@ public class StreamApii {
 		
 		//toArray()
 		//method to convert stream of objects into array
+//		System.out.println("streams object to array");
 		Integer[] i1 = al.stream().toArray(Integer[]::new);
 		Stream.of(i1).forEach(System.out::println);
 		
+//		System.out.println("streams of integer");
 		Stream<Integer> s = Stream.of(9,99,999,9999,99999);
 		s.forEach(System.out::println);
 		
+//		System.out.println("10,20 wala print hoga kuchh");
 		Integer[] i2 = {10,20,30,40,50};
 		Stream.of(i2).forEach(System.out::println);
 		

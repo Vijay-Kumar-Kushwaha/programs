@@ -4,7 +4,7 @@ public class ErrorTryCatch {
 	public static void main(String[] args) {
 		alpha();
 	}
-	void alpha() {
+	static void alpha() {
 		
 	}
 
